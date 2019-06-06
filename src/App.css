@@ -1,27 +1,22 @@
-body {
-	width: 100%;
-	margin: auto;
-}
-p {
-  font-size: 1.2rem;
-  color: pink;
-}
-
-
-/*Makes the input elements and p elements one block*/
-.smallerbox {
-	display: inline-flex;
-}
+/*CSS Styles for the App component*/
 
 /*parent styling, applying flexbox in parent, which 
-wraps smallerbox*/
-.bigcontainer {
+wraps items*/
+.list {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 25px;
   flex-direction: column;
-  margin-top: 15vh;
-  }
+  background-color: whitesmoke;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 5px 5px rgba(59, 43, 91, 0.4),
+              10px 10px rgba(59, 43, 91, 0.3),
+              15px 15px rgba(59, 43, 91, 0.2),
+              20px 20px rgba(59, 43, 91, 0.1),
+              25px 25px rgba(59, 43, 91, 0.05);
+}
 
 
