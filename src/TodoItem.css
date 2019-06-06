@@ -1,0 +1,17 @@
+/*CSS Styles for the TodoItem component*/
+p {
+  font-size: 1.3rem;
+  color: #AC6087;
+  margin-left: 10px;
+
+ }
+
+/*Makes the INPUT elements and P elements  in a flexbox*/
+.items {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1.5px dotted pink;
+	padding-top: 10px;
+}
