@@ -1,33 +1,27 @@
-.App {
-  text-align: center;
+body {
+	width: 100%;
+	margin: auto;
+}
+p {
+  font-size: 1.2rem;
+  color: pink;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+/*Makes the input elements and p elements one block*/
+.smallerbox {
+	display: inline-flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*parent styling, applying flexbox in parent, which 
+wraps smallerbox*/
+.bigcontainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  align-items: center;
+  padding-top: 25px;
+  flex-direction: column;
+  margin-top: 15vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
