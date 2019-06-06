@@ -1,32 +1,16 @@
 import React from 'react';
 import './App.css';
+import TodoItem from './TodoItem.js';
 
 function App() {
   return (
-    <div className = "bigcontainer">
-    
-      <div className="smallerbox">
-      	<input type="checkbox" name="activity" />
-      	<p>Grocery Shopping</p>
-      </div>
-
-      <div className="smallerbox">
-      	<input type="checkbox" name="activity" />
-      	<p>Work out</p>
-      </div>
-
-      <div className="smallerbox">
-      	<input type="checkbox" name="activity" />
-      	<p>Walk the dog</p>
-      </div>
-
-      <div className="smallerbox">
-      	<input type="checkbox" name="activity" />
-      	<p>Read your book</p>
-      </div>
-
+    <div className = "list">
+    	<TodoItem />
+    	<TodoItem />
+     	<TodoItem />
+    	<TodoItem />
     </div>    
-  );
+  )
 }
 
 export default App;
