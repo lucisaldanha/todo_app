@@ -9,7 +9,7 @@ p {
 /*Makes the INPUT elements and P elements  in a flexbox*/
 .items {
 	display: inline-flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	width: 100%;
 	border-bottom: 1.5px dotted pink;
