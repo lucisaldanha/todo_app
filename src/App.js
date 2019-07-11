@@ -26,12 +26,12 @@ class App extends React.Component {
 	}
 
 	render() {
-		const todoItemComponents = this.state.todos.map(todoItem => { 
+		const todoItemComponents = this.state.todos.map(todoDataItem => { 
 			return <TodoItem 
-						key={todoItem.id} 
-						id={todoItem.id}
-						texto={todoItem.text}
-						completo={todoItem.completed}
+						key={todoDataItem.id} 
+						id={todoDataItem.id}
+						texto={todoDataItem.text}
+						completo={todoDataItem.completed}
 						handleChange={this.handleChange}
 					/>
 			})
